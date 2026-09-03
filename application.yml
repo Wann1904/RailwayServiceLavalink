@@ -3,7 +3,7 @@ server:
 
 lavalink:
   server:
-    password: "wanmusic123"
+    password: "youshallnotpass"
     sources:
       youtube: false
       bandcamp: true
@@ -18,3 +18,8 @@ lavalink:
 metrics:
   prometheus:
     enabled: false
+
+
+# application.yml atau application.properties
+plugins:
+  - dependency: "com.github.lavalink-devs:Lavalink-Plugins:lavasearch-youtube"
