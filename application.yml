@@ -3,7 +3,7 @@ server:
 
 lavalink:
   server:
-    password: "wann123"
+    password: "wannmusic123"
     sources:
       youtube: false
       bandcamp: true
