@@ -1,25 +1,27 @@
 server:
   port: 2333
+  address: 0.0.0.0
 
 lavalink:
   server:
     password: "wanmusic123"
+
     sources:
       youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true
       vimeo: true
+      nico: true
       http: true
       local: false
+
+    soundcloudSearchEnabled: true
+    soundcloudFilterOutPreviewTracks: false
+
     filters:
       volume: true
 
 metrics:
   prometheus:
     enabled: false
-
-
-# application.yml atau application.properties
-plugins:
-  - dependency: "com.github.lavalink-devs:Lavalink-Plugins:lavasearch-youtube"
